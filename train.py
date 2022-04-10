@@ -39,6 +39,7 @@ def main(args, init_distributed=False):
         checkpoint_utils.verify_checkpoint_directory(args.save_dir)
 
     # Print args
+    print("------------------------------------ args list ---------------------------------------")
     print(args)
 
     # Setup task, e.g., translation, language modeling, etc.
